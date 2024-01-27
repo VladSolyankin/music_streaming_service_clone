@@ -1,5 +1,5 @@
 const {getDownloadURL, ref} = require('firebase/storage')
-const { storage } = import('../src/api/config.js');
+const { storage } = import('./config.js');
 const admin = require("firebase-admin");
 
 const serviceAccount = require("C:\\Users\\79117\\admin-config.json");
