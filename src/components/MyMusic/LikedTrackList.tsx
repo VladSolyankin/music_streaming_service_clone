@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {Track} from "@types/index.ts";
-import {deleteLikedTrack, getUserLikedTracks} from "../../api/firebase/index.js";
+import {deleteLikedTrack, getUserLikedTracks} from "../../api/index.js";
 import {RxCrossCircled} from "react-icons/rx";
 import {userId} from "../../ts/constants";
 

@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 import '../../css/Sidemenu.css'
 import {SelectedPlaylistProps, Track} from "@types/index";
 import {nanoid} from "nanoid";
-import {deletePlaylistTrack, getPlaylistTracks} from "../../api/firebase/index.js";
+import {deletePlaylistTrack, getPlaylistTracks} from "../../api/index.js";
 import {RxCrossCircled} from "react-icons/rx";
 import {userId} from "../../ts/constants";
 

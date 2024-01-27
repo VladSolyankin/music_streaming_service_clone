@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {addNewPlaylist} from "../../api/firebase/index.js"
+import {addNewPlaylist} from "../../api/index.js"
 import {Playlist, PlaylistsProps} from "@types/index.ts";
 import {useUserPlaylists} from "../../hooks/hooks.ts";
 import PlaylistItem from "./PlaylistItem.tsx";

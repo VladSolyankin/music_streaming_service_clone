@@ -1,7 +1,7 @@
 import {Button, Checkbox, Form, Input} from "antd";
 import {useNavigate} from "react-router-dom";
 import {signInWithEmailAndPassword} from "firebase/auth";
-import {auth} from '../../api/firebase/config.js';
+import {auth} from '../../api/config.js';
 import {FieldType} from "../../ts/types";
 import MyNotification from "../UI/MyNotification";
 import {useState} from "react";

@@ -1,9 +1,9 @@
 import {Button, Checkbox, Form, Input, InputNumber, notification, Space} from "antd";
 import {useNavigate} from "react-router-dom";
 import {createUserWithEmailAndPassword} from "firebase/auth";
-import {auth} from "../../api/firebase/config.js";
+import {auth} from "../../api/config.js";
 import {FieldType, NotificationType} from "../../ts/types";
-import { addNewUser } from "../../api/firebase/index.js";
+import { addNewUser } from "../../api/index.js";
 
 const SignUpForm = () => {
     const [api, contextHolder] = notification.useNotification();
